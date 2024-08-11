@@ -1,0 +1,257 @@
+.sampul {
+	width: 75px;
+}
+
+.table > tbody > tr > * {
+	vertical-align: middle;
+}
+
+.text-white {
+	color: white;
+}
+.no-underline a {
+	text-decoration: none;
+}
+.no-underline a:hover {
+    color: #9b9b9b !important;
+}
+
+/* about */
+/* Tentang */
+#tentang {
+	padding: 10px 70px;
+	background-image: url(../assets/img/rose-petals.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#tentang h1 {
+	font-size: 45px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.tentang-deskripsi {
+	padding: 10px 40px 30px 40px;
+	word-spacing: 7px;
+	color: white;
+	display: flex;
+}
+
+.tentang-deskripsi p {
+	text-align: justify;
+}
+
+.tentang-deskripsi > div {
+	padding: 0px 30px;
+}
+/* end about */
+
+/* Kontak */
+#kontak {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(../assets/img/subtle-prism.svg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.kontak-deskripsi {
+	width: 85%;
+	background-image: url(../assets/img/subtle-prism.svg);
+	padding: 20px 60px 30px 40px;
+	box-shadow: 2px 2px 4px #0f044c;
+}
+.kontak-deskripsi h1 {
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #141e61;
+}
+.kontak-konten {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bio {
+	width: 35%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	position: relative;
+	text-align: center;
+}
+.bio::before {
+	content: '';
+	width: 3px;
+	right: -10px;
+	transform: translateY(-50%);
+	position: absolute;
+	height: 70%;
+	top: 50%;
+	background: #141e61;
+}
+.nama-pembuat {
+	padding: 10px 0px 10px 0px;
+}
+.nama-pembuat p {
+	color: #30313a;
+	font-size: 14px;
+}
+.nama-pembuat img {
+	border-radius: 50%;
+}
+.informasi-pembuat {
+	padding: 10px 0px 10px 0px;
+}
+.informasi-pembuat img {
+	padding: 10px;
+}
+.sosmed-pembuat img {
+	padding: 10px 5px;
+	width: 25px;
+}
+.form {
+	width: 85%;
+	margin-left: 75px;
+}
+.form h1 {
+	font-size: 35px;
+	color: #141e61;
+	text-align: justify;
+}
+.form p {
+	color: #30313a;
+}
+.box-input {
+	height: 50px;
+	width: 80%;
+	margin: 12px 0;
+}
+.box-input input,
+.box-input textarea {
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+	width: 110%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background: #f0f0f0;
+	border-radius: 6px;
+	padding: 0 15px;
+	resize: none;
+}
+
+.box-pesan {
+	min-height: 110px;
+}
+
+.btn-kontak {
+	display: inline-block;
+	margin-top: 12px;
+}
+.btn-kontak input {
+	color: #eeeeee;
+	cursor: pointer;
+	padding: 9px 18px;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background: #001effce;
+    transition: all 0.3s ease;
+}
+.btn-kontak input:hover {
+	background: #ff0000;
+}
+
+/* end kontak */
+
+/* footer */
+footer {
+	padding: 60px 0 0 0;
+	background: linear-gradient(45deg, #1a1a1a, #333);
+	color: #fff;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+footer h5 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+footer p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+footer .container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+footer .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer .col-lg-6,
+footer .col-md-12 {
+	margin-bottom: 20px;
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+footer .social-icons a {
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+footer .social-icons a:hover {
+	color: #ff6347;
+	transform: scale(1.2);
+}
+
+footer .text-center {
+	text-align: center;
+}
+
+footer .bg-dark {
+	background-color: #222;
+}
+
+footer .p-4 {
+	padding: 20px;
+}
+
+footer .p-3 {
+	padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+	footer .social-icons {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer .social-icons a {
+		margin-bottom: 10px;
+	}
+}
